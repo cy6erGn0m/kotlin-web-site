@@ -159,7 +159,7 @@ for (i in array.indices)
 
 Note that this "iteration through a range" is compiled down to optimal implementation with no extra objects created.
 
-Alternatively, you can use the `withIndex` library function:
+Alternatively, you can use the `withIndex` library function with [Destructuring Declarations *for* syntax](multi-declarations.html):
 
 ``` kotlin
 for ((index, value) in array.withIndex()) {
